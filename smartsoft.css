@@ -1,0 +1,325 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "one-font";
+    src: url(../Fonts/Intro-Black.otf);
+}
+
+@font-face{
+    font-family: "two-font";
+    src: url(../Fonts/Intro-Regular.otf);
+}
+
+@font-face{
+    font-family: "three-font";
+    src: url(../Fonts/Intro-BlackAlt.otf);
+}
+
+@font-face{
+    font-family: "four-font";
+    src: url(../Fonts/Intro-BoldAlt.otf);
+}
+
+.red-line{
+    background-image: url(../image/red-line.png);
+    width: 100%;
+    height: 4px;
+}
+
+.smartsoft-logo{
+    background-image: url(../image/smartsoft-logo.png);
+    width: 203px;
+    height: 19px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 20px;
+}
+
+.fearst-line{
+    background-image: url(../image/line.png);
+    width: 56px;
+    height: 2px;
+    margin-left: 23px;
+    margin-top: 90px;
+}
+
+.text-jetx{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: "one-font";
+}
+
+
+
+.red{
+    color: red;
+}
+
+.jetx-fearst-img{
+    background-image: url(../image/fearst-jetxfly.png);
+    width: 166px;
+    height: 77px;
+    margin-left: 194px;
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+.second-img{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cricetx-ball{
+    background-image: url(../image/Vector\ Smart\ Object.png);
+    width: 116px;
+    height: 69px;
+}
+
+.cricetx-text{
+    border: 1px solid black;
+    width: 178px;
+    height: 94px;
+    font-size: 9.2px;
+    border: none;
+    font-family: "two-font";
+    
+}
+
+
+.second-line{
+    background-image: url(../image/line.png);
+    width: 300px;
+    height: 1px;
+    margin-top: 70px;
+}
+
+.three-line{
+    background-image: url(../image/line.png);
+    width: 56px;
+    height: 2px;
+    margin-top: 40px;
+    margin-left: 23px;
+}
+
+.jetx-logo{
+    background-image: url(../image/jetx.png);
+    width: 70px;
+    height: 27px;
+    margin-top: -12px;
+    margin-left: 229px;
+}
+
+.yellow{
+    color: #fedd10;
+}
+
+.photo{
+    background-image: url(../image/jumanji.png);
+    width: 200px;
+    height: 300px;
+}
+
+.flying{
+    display: flex;
+}
+
+
+.flying h2{
+    margin-top: 5px;
+    margin-left: 26px;
+    width: 197px;
+    height: 80px;
+    font-family: "one-font";
+}
+
+.flying-ball{
+    background-image: url(../image/ball-back.png);
+    width: 96px;
+    height: 61px;
+    margin-top: 44px;
+}
+
+
+.fearst-text{
+    font-size: 9.2px;
+    width: 146px;
+    height: 144px;
+    font-family: "two-font";
+}
+
+.jetx-text{
+    color:#fedd10;
+    font-family: "three-font";
+}
+
+.x{
+    font-family: "three-font";
+    color: #000000;
+}
+
+.second-text{
+    font-size: 9.2px;
+    width: 146px;
+    font-family: "two-font";
+}
+
+.flying-text{
+    display: flex;
+}
+
+.flying-img{
+    background-image: url(../image/jetx-2fly.png);
+    width: 148px;
+    height: 153px;
+}
+
+.finish-line{
+    background-image: url(../image/line-jetx-back.png);
+    width: 353px;
+    height: 52px;
+}
+
+.background-lengt{
+    background-image: url(../image/circule1.png);
+    width: 116px;
+    height: 19px;
+}
+
+.background-lengt{
+    display: flex;
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.lengt-text p{
+    font-size: 9.2px;
+    padding-top: 4px;
+}
+
+.circule-2{
+    border:1px solid black;
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.arrow-left{
+    background-image: url(../image/arrow-left.png);
+    width: 8px;
+    height: 9px;
+    background-position: center;
+    margin-top: 4px;
+}
+
+.black-line{
+    background-image: url(../image/line.png);
+    width: 56px;
+    height: 2px;
+    margin-left: 0px;
+    margin-top: 40px;
+    margin-left: 23px;
+}
+
+.x-games{
+    display: flex;
+}
+
+.x-games-tittle{
+    margin-top: 28px;
+    font-size: 24px;
+    line-height: 26px;
+    font-family: "one-font";
+}
+
+.red-color{
+    color: red;
+}
+
+.red-color-blackalt{
+    font-family: "three-font";
+    color: red;
+}
+
+.jumanji-text{
+    font-family: "two-font";
+}
+
+.football-x{
+    margin-top: -12px;
+}
+
+.x-games-second{
+    display: flex;
+    font-size: 13px;
+}
+
+.line-arrow img{
+    margin-top: 29px;
+}
+
+.football-x-three-man img{
+    margin-top: -22px;
+}
+
+.other-xgames{
+    display: flex;
+}
+
+.ballon,
+.cappadocia{
+    margin-top: 20px;
+}
+
+.other-xgames-two{
+    display: flex;
+}
+
+.plinko{
+        margin-left: 155px;
+        margin-top: -41px;
+}
+
+.cricetx{
+        margin-top: -94px;
+        margin-left: -9px;
+}
+
+footer{
+    background-color: #000000;
+    border: 2px solid rgb(211, 13, 13);
+    width: 360px;
+    height: 100px;
+    font-size: 8px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-tittle{
+    font-family: "four-font";
+}
+
+.sertificator-country ul,
+.second-line-country ul{
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    font-size: 4px;
+}
+
+.sertificator-country ul{
+    padding-top: 10px;
+}
+
+.second-line-country ul{
+    padding-top: 5px;
+}
